@@ -9,7 +9,7 @@ header {
     background-color: #3498db;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 nav {
@@ -57,4 +57,67 @@ h2 {
 ul {
     list-style-type: disc;
     margin-left: 20px;
+    margin-right: 20px;
 }
+
+/* ... (Your existing CSS) ... */
+
+.presentation-section {
+    background: linear-gradient(to right, #2980b9, #3498db); /* Gradient background for presentation section */
+    padding: 40px; /* Increase padding to make the section larger */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin at the bottom to separate sections */
+}
+
+.presentation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.presentation-svg {
+    margin-right: 20px; /* Add margin to separate the SVG from text */
+}
+
+.presentation-svg svg {
+    height: 2em; /* Increase SVG size */
+    fill: white; /* Change SVG color to white */
+}
+
+.presentation-text {
+    flex-grow: 1; /* Allow text to grow and take available space */
+}
+
+.presentation-text h2 {
+    font-size: 2em; /* Increase font size */
+    color: white; /* Change text color to white */
+}
+
+.presentation-text p {
+    font-size: 1.2em; /* Increase font size */
+    color: white; /* Change text color to white */
+}
+
+/* Apply similar styles to other sections */
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Add margin at the bottom to separate sections */
+}
+
+.section h2 {
+    font-size: 1.5em; /* Increase font size */
+    color: #2980b9; /* Change text color */
+}
+
+.section p {
+    font-size: 1.2em; /* Increase font size */
+    color: #333; /* Change text color */
+}
+
+/* ... (Your existing CSS) ... */
+
